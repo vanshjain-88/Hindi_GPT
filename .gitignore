@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Raw and generated datasets
+hindi_corpus/
+text_classification_dataset/
+data/
+*.zip
+*.bin
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Generated classifier artifacts
+best_classifier.pt
+classification_curves.png
